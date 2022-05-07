@@ -1,0 +1,118 @@
+/* Geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar */
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px rgb(93, 93, 93) solid;
+    background: rgb(1, 84, 84);
+    color: #FFF;
+}
+
+#menu ul{
+    display: flex;
+    align-items: center;
+}
+
+#menu ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 20px 0 20px 20px;
+    transition: all 0.3s ease;
+}
+
+#menu ul li:hover{
+    color: rgb(182, 182, 182);
+    text-decoration: underline;
+}
+
+/* Home */
+
+#home{
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+#home h1{
+    color: rgb(1, 84, 84);
+    font-weight: 1000;
+}
+
+#home span{
+    font-weight: 600;
+}
+
+#home p{
+    margin: 10px 20% auto 20%;
+}
+
+#maisInfo{
+    margin: 30px 15% auto 15%;
+}
+
+#grid-skills{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 15px;
+}
+
+.card-skills {
+    text-align: center;
+}
+
+.card-skills i{
+    font-size: 40px;
+    font-weight: 500px;
+    color: rgb(0, 145, 145);
+    cursor: pointer;
+}
+
+#forms{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#forms input{
+    border-radius: 6px;
+    border: 1px solid black;
+    font-family: 'Arial', Times, serif;
+    font-size: 15px;
+}
+
+#forms button{
+    border: white 1px solid;
+    border-radius: 10px;
+    background: rgb(7, 147, 147);
+    color: #FFF;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+#forms button:hover{
+    background: rgb(7, 193, 193);
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background: rgb(1, 84, 84);
+    color: #FFF;
+    height: 50px;
+}
+
+footer p{
+    margin: 25%;
+}
